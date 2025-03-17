@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                font-family: monospace;
+                margin: 0;
+            }
+            body > h1 {
+                background-color: #1F1F1F;
+                color: white;
+            }
+            main {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            }
+            div {
+                height: 50vh;
+            }
+            div:first-child {
+                background-color: #FF000044;
+            }
+            div:nth-child(2) {
+                background-color: #FFFF0044;
+            }
+            div:last-child {
+                background-color: #0000FF44;
+            }
+            h1 {
+                border-bottom: solid black 1px;
+                margin: 0;
+                padding: 16px;
+                text-align: center;
+            }
+            div:first-child > h1 {
+                background-color: red;
+                color: white;
+            }
+            div:nth-child(2) > h1 {
+                background-color: yellow;
+                color: black;
+            }
+            div:last-child > h1 {
+                background-color: blue;
+                color: white;
+            }
+            div > ul > li {
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Observation of the website "www.arngren.net"</h1>
+        <main>
+            <div>
+                <h1>User Experience</h1>
+                <ul>
+                    <li>Too many objects are visible and will confuse users</li>
+                    <li>Colors has no consistency</li>
+                    <li>The whole website is hard to navigate</li>
+                    <li>It has no clear purpose on what it is trying to do</li>
+                </ul>
+            </div>
+            <div>
+                <h1>Content</h1>
+                <ul>
+                    <li>Too much content in one page resulting in a mess</li>
+                    <li>Too much text</li>
+                    <li>Images has different kinds of sizes</li>
+                    <li>Everything is all over the place</li>
+                </ul>
+            </div>
+            <div>
+                <h1>Grid Layout</h1>
+                <ul>
+                    <li>Grid layout is staggered and will easily clutter the whole page</li>
+                </ul>
+            </div>
+        </main>
+    </body>
+</html>
